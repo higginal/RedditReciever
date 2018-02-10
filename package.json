@@ -1,0 +1,29 @@
+{
+  "name": "redditreceiver",
+  "version": "1.0.0",
+  "description": "recieves the title of the highest post in the subreddit, r/GifRecipes",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/higginal/RedditReciever.git"
+  },
+  "author": "Avery Higgins",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/higginal/RedditReciever/issues"
+  },
+  "homepage": "https://github.com/higginal/RedditReciever#readme",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.2",
+    "mongodb": "^2.2.16",
+    "snoowrap": "^1.15.2"
+  },
+  "devDependencies": {
+    "nodemon": "^1.14.12"
+  }
+}
